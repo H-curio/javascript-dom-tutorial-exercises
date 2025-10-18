@@ -1,4 +1,7 @@
 // Your code here
-let elem = document.createComment('h1');
-elem.style.background
-elem.innerHTML = 'Hello';
+let p = document.createElement("p");
+p.innerHTML = "Hello World";
+p.style.background = "yellow";
+
+document.body.appendChild(p);
+
